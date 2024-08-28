@@ -57,11 +57,11 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-lg font-medium">
-              <li><a>Home</a></li>
-              <li><a>Everything</a></li>
-              <li><a>Groceries</a></li>
-              <li><a>About</a></li>
-              <li><a>Contact</a></li>
+              <li class="hover:text-primary"><a>Home</a></li>
+              <li class="hover:text-primary"><a>Everything</a></li>
+              <li class="hover:text-primary"><a>Groceries</a></li>
+              <li class="hover:text-primary"><a>About</a></li>
+              <li class="hover:text-primary"><a>Contact</a></li>
             </ul>
           </div>
           <div class="navbar-end text-lg flex gap-4">
@@ -79,15 +79,40 @@
               tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
             >
-              <li><a>Home</a></li>
-              <li><a>Everything</a></li>
-              <li><a>Groceries</a></li>
-              <li><a>About</a></li>
-              <li><a>Contact</a></li>
+              <li class="hover:text-primary"><a>Home</a></li>
+              <li class="hover:text-primary"><a>Everything</a></li>
+              <li class="hover:text-primary"><a>Groceries</a></li>
+              <li class="hover:text-primary"><a>About</a></li>
+              <li class="hover:text-primary"><a>Contact</a></li>
             </ul>
           </div>
         </div>
       </nav>
+      <!-- banner start -->
+      <section
+        class="grid grid-cols-1 md:grid-cols-2 place-items-center bg-[#F9F7F4] p-8 sm:p-16 lg:p-32 gap-6"
+      >
+        <!-- banner image -->
+        <div class="flex lg:justify-end">
+          <img class="lg:w-10/12" src="images/bannerbg.png" alt="" />
+        </div>
+        <!-- banner content -->
+        <div class="space-y-5">
+          <h3 class="text-xl font-semibold">Best Quality Products</h3>
+          <h1 class="text-3xl lg:text-6xl font-bold">
+            Join The Organic <br />
+            Movement!
+          </h1>
+          <p class="text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+            elit. Ut elit tellus, luctus nec ullamcorper mattis, <br />
+            pulvinar dapibus leo.
+          </p>
+          <button class="btn bg-secondary hover:bg-primary text-white px-8">
+            <i class="fa-solid fa-cart-shopping text-white"></i> Shop Now
+          </button>
+        </div>
+      </section>
     </header>
     <!-- Main section start -->
     <main></main>
